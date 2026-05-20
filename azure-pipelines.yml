@@ -22,7 +22,7 @@ steps:
   displayName: Use Dotnet
   inputs:
     packageType: sdk
-    version: 9.x
+    version: 10.x
 - task: NuGetCommand@2
   displayName: 'restoring'
   inputs:
